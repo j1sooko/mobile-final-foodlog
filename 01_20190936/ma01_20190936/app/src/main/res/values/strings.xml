@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ma01_20190936</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_insert_food">InsertFoodActivity</string>
+    <string name="title_activity_update_food">UpdateFoodActivity</string>
+    <string name="title_activity_searchCal_food">SearchCalFoodActivity</string>
+    <string name="title_activity_intro">IntroActivity</string>
+    <string name="title_activity_alarm">AlarmActivity</string>
+
+    <string name="channel_name">My Channel</string>
+    <string name="channel_description">Channel Example</string>
+    <string name="CHANNEL_ID">MY_CHANNEL</string>
+
+    <string name="no_alarm_set">No Alarm Set</string>
+
+    <string name="google_api_key">AIzaSyBXf2n33A7PKklRYEpBP52-QSggLCWPPNI</string>
+
+    <string name="foodcode_api_url">http://apis.data.go.kr/1390802/AgriFood/MzenFoodCode/getKoreanFoodList</string>
+    <string name="foodcode_service_key">rR8Y27Tl3Cvfno79nQxzVhcTNGW2Thwededo8Jv0PTPfao%2B2K%2F4q9dpnsLokmx2I4Ppg9ioF10QPmTcixWTO5g%3D%3D</string>
+    <string name="foodnutri_api_url">http://apis.data.go.kr/1390802/AgriFood/MzenFoodNutri</string>
+    <string name="foodnutri_service_key">rR8Y27Tl3Cvfno79nQxzVhcTNGW2Thwededo8Jv0PTPfao%2B2K%2F4q9dpnsLokmx2I4Ppg9ioF10QPmTcixWTO5g%3D%3D</string>
+    <string name="api_source">본 저작물은 \'농촌진흥청 국립농업과학원\'에서 2021년 작성하여 개방한 \'식단관리(메뉴젠) 음식 정보 제공 오픈 API 조회 서비스,
+        식단관리(메뉴젠) 음식별 영양성분 정보 제공 오픈API 조회 서비스 (작성자:이상영\'을 이용하였으며, 해당 저작물은 \'농촌진흥청 국립농업과학원\'(http://koreanfood.rda.go.kr/kfi/openapi/useNewGuidance)에서 무료로 다운받으실 수 있습니다.</string>
+</resources>

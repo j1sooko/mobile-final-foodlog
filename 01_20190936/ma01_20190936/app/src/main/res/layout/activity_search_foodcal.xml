@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/etFoo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18sp"
+        android:layout_marginTop="18sp"
+        android:layout_marginRight="18sp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/etSearchFoodName"
+            android:layout_width="242dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="검색할 음식 이름 입력"
+            android:inputType="textPersonName"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18sp"
+            android:onClick="onClick"
+            android:text="검색" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvSearchFood"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="18sp" />
+</LinearLayout>
